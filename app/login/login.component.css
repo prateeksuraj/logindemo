@@ -1,0 +1,57 @@
+h1
+{
+color:#444;
+ font-family: Arial, Helvetica, sans-serif;
+}
+input :hover{
+ color: #cfd8dc;
+}
+form
+{
+margin-left:10px
+}
+fieldset
+{
+font-size:30px;
+font-family: Arial, Helvetica, sans-serif;
+width:600px;
+/*margin-left:450px;*/
+margin-top:20px;
+}
+.user-form
+{
+width:600px;
+margin-left:310px;
+padding-bottom:80px;
+padding-top:80px;
+}
+.input-text
+{
+width:150px;
+margin-bottom:60px;
+margin-left:50px;
+}
+.input-button
+{
+font-size:20px;
+width:80px;
+margin-bottom:60px;
+margin-left:130px;
+}
+.input-button:hover
+{
+background-color:#ff9933;
+}
+.input-field
+{
+font-size:20px;
+margin-bottom:60px;
+margin-left:130px;
+}
+label
+{
+text-align:right;
+font-size:20px;
+width:100px;
+display: inline;
+}

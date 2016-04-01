@@ -1,0 +1,15 @@
+<form>
+	<fieldset>
+    <legend>Sign in:</legend>
+	<div class="user-form">
+		<label>Email Id</label>
+		<input [(ngModel)]="username" class="input-text" required ><br>
+		<label>Password</label>
+		<input [(ngModel)]="password" type="password" class="input-text" required><br>
+		<div class="input-field"><input type="checkbox" name="rememberme">Remember me<br></div>
+		<input type="submit" value="Sign in" (click)="logIn()" class="input-button">
+		<input type="button" value="Sign up" class="input-button"><br>
+		<a href="" class="input-field">Forgotten Password?</a>
+	</div>
+	</fieldset>
+</form>
